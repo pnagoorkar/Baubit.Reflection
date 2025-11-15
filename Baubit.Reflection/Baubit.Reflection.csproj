@@ -31,7 +31,7 @@
   </ItemGroup>
 
   <ItemGroup Condition="'$(Configuration)' != 'Release'">
-    <ProjectReference Include="..\SubModules\Baubit.Reflection\Baubit.Traceability\Baubit.Traceability.csproj" />
+    <ProjectReference Include="..\SubModules\Baubit.Traceability\Baubit.Traceability\Baubit.Traceability.csproj" />
   </ItemGroup>
 
 </Project>
