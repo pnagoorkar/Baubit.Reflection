@@ -17,8 +17,8 @@
     <SignAssembly>$(SignAssembly)</SignAssembly>
     <AssemblyOriginatorKeyFile>$(KeyFilePath)</AssemblyOriginatorKeyFile>
     <EmitCompilerGeneratedFiles>false</EmitCompilerGeneratedFiles>
-    <Description>TBD</Description>
-    <PackageTags>TBD</PackageTags>
+    <Description>A utility library for .NET 9 providing enhanced reflection capabilities with functional error handling. Features include safe type resolution, version-aware assembly name comparison, simplified assembly-qualified name formatting, and embedded resource reading using FluentResults for robust error handling.</Description>
+    <PackageTags>reflection;assembly;type-resolution;fluent-results;error-handling;dotnet9;utilities;assembly-loading;type-loader;baubit</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>
