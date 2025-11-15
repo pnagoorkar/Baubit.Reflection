@@ -149,7 +149,7 @@ jobs:
       - run:
           name: Test
           command: |
-            TEST_PROJECT="${SOLUTION_FOLDER}/${PROJECT_NAME}.Test.csproj"
+            TEST_PROJECT="${PROJECT_NAME}.Test/${PROJECT_NAME}.Test.csproj"
             
             if [ ! -f "$TEST_PROJECT" ]; then
               echo "Test project not found at: $TEST_PROJECT"
