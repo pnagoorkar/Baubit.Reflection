@@ -1,0 +1,7 @@
+<Solution>
+  <Folder Name="/SubModules/">
+    <Project Path="SubModules/Baubit.Reflection/Baubit.Traceability/Baubit.Traceability.csproj" />
+  </Folder>
+  <Project Path="Baubit.Reflection.Test/Baubit.Reflection.Test.csproj" Id="77c2d28d-9178-4271-a82b-1aad5f482af5" />
+  <Project Path="Baubit.Reflection/Baubit.Reflection.csproj" />
+</Solution>
