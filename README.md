@@ -1,6 +1,6 @@
 # Baubit.Reflection
 
-[![CircleCI](https://circleci.com/gh/pnagoorkar/Baubit.svg?style=shield)](https://circleci.com/gh/pnagoorkar/Baubit)
+[![CircleCI](https://dl.circleci.com/status-badge/img/circleci/TpM4QUH8Djox7cjDaNpup5/2zTgJzKbD2m3nXCf5LKvqS/tree/master.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/circleci/TpM4QUH8Djox7cjDaNpup5/2zTgJzKbD2m3nXCf5LKvqS/tree/master)
 [![codecov](https://codecov.io/gh/pnagoorkar/Baubit.Reflection/branch/master/graph/badge.svg)](https://codecov.io/gh/pnagoorkar/Baubit.Reflection)
 [![NuGet](https://img.shields.io/nuget/v/Baubit.Reflection.svg)](https://www.nuget.org/packages/Baubit.Reflection/)
 
