@@ -1,10 +1,13 @@
 # Baubit.Reflection
 
-[![CircleCI](https://circleci.com/gh/pnagoorkar/Baubit.svg?style=shield)](https://circleci.com/gh/pnagoorkar/Baubit)
-[![codecov](https://codecov.io/gh/pnagoorkar/Baubit.Reflection/branch/master/graph/badge.svg)](https://codecov.io/gh/pnagoorkar/Baubit.Reflection)
+[![CircleCI](https://dl.circleci.com/status-badge/img/circleci/TpM4QUH8Djox7cjDaNpup5/2zTgJzKbD2m3nXCf5LKvqS/tree/master.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/circleci/TpM4QUH8Djox7cjDaNpup5/2zTgJzKbD2m3nXCf5LKvqS/tree/master)
+[![codecov](https://codecov.io/gh/pnagoorkar/Baubit.Reflection/branch/master/graph/badge.svg)](https://codecov.io/gh/pnagoorkar/Baubit.Reflection)<br/>
 [![NuGet](https://img.shields.io/nuget/v/Baubit.Reflection.svg)](https://www.nuget.org/packages/Baubit.Reflection/)
+![.NET Standard 2.0](https://img.shields.io/badge/.NET%20Standard-2.0-512BD4?logo=dotnet&logoColor=white)<br/>
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Known Vulnerabilities](https://snyk.io/test/github/pnagoorkar/Baubit.Reflection/badge.svg)](https://snyk.io/test/github/pnagoorkar/Baubit.Reflection)
 
-A utility library for .NET 9 that provides enhanced reflection capabilities with functional error handling using FluentResults. This library simplifies common reflection tasks such as assembly resolution, type resolution, and assembly-qualified name formatting.
+A utility library for .NET that provides enhanced reflection capabilities with functional error handling using FluentResults. This library simplifies common reflection tasks such as assembly resolution, type resolution, and assembly-qualified name formatting.
 
 ## Features
 
@@ -13,7 +16,6 @@ A utility library for .NET 9 that provides enhanced reflection capabilities with
 - **Assembly Name Formatting**: Generate clean, simplified assembly-qualified type names (Baubit format)
 - **Resource Reading**: Read embedded resources from assemblies with error handling
 - **Functional Error Handling**: All operations return `Result<T>` types for safe error handling using FluentResults
-- **.NET 9 Support**: Built for the latest .NET runtime
 
 ## Installation
 
@@ -177,7 +179,6 @@ if (result.IsSuccess)
 
 - **FluentResults**: For functional error handling
 - **Baubit.Traceability**: For custom error reason types
-- **.NET 9**: Target framework
 
 ## Development
 
