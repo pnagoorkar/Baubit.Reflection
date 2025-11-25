@@ -1,9 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net9.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
+    <TargetFramework>netstandard2.0</TargetFramework>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <NoWarn>$(NoWarn);CS1591</NoWarn>
     <AssemblyVersion>$(AssemblyVersion)</AssemblyVersion>
@@ -17,7 +15,7 @@
     <SignAssembly>$(SignAssembly)</SignAssembly>
     <AssemblyOriginatorKeyFile>$(KeyFilePath)</AssemblyOriginatorKeyFile>
     <EmitCompilerGeneratedFiles>false</EmitCompilerGeneratedFiles>
-    <Description>A utility library for .NET 9 providing enhanced reflection capabilities with functional error handling. Features include safe type resolution, version-aware assembly name comparison, simplified assembly-qualified name formatting, and embedded resource reading using FluentResults for robust error handling.</Description>
+    <Description>A utility library for providing enhanced reflection capabilities with functional error handling. Features include safe type resolution, version-aware assembly name comparison, simplified assembly-qualified name formatting, and embedded resource reading using FluentResults for robust error handling.</Description>
     <PackageTags>reflection;assembly;type-resolution;fluent-results;error-handling;dotnet9;utilities;assembly-loading;type-loader;baubit</PackageTags>
   </PropertyGroup>
 
@@ -27,7 +25,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Baubit.Traceability" Version="2025.46.1" />
+    <PackageReference Include="Baubit.Traceability" Version="2025.48.1" />
   </ItemGroup>
 
 </Project>
