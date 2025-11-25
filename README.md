@@ -179,7 +179,6 @@ if (result.IsSuccess)
 
 - **FluentResults**: For functional error handling
 - **Baubit.Traceability**: For custom error reason types
-- **.NET 9**: Target framework
 
 ## Development
 
