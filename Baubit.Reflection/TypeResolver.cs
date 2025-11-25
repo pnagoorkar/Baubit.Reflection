@@ -1,6 +1,7 @@
 ﻿using Baubit.Reflection.Reasons;
 using Baubit.Traceability;
 using FluentResults;
+using System;
 
 namespace Baubit.Reflection
 {
@@ -11,7 +12,7 @@ namespace Baubit.Reflection
             return Result.Try(() => Type.GetType(assemblyQualifiedName))
                          .Bind(type => Result.FailIf(type == null, new Error(string.Empty))
                                              .AddReasonIfFailed(new TypeNotDefined(assemblyQualifiedName))
-                                             .Bind(() => Result.Ok(type!)));
+                                             .Bind(() => Result.Ok(type)));
         }
     }
 }
