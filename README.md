@@ -133,6 +133,21 @@ else
     Console.WriteLine($"Failed to read resource: {result.Errors.First().Message}");
 }
 ```
+### Create Instances using specific constructors
+#### CreateInstance
+
+Create type instances via reflection with `Result` error handling.
+
+```csharp
+var result = typeof(MyService).CreateInstance<IMyService>(
+    new[] { typeof(IConfiguration), typeof(ILogger) },
+    new object[] { config, logger }
+);
+if (result.IsSuccess)
+{
+    var service = result.Value;
+}
+```
 
 ### Stream Utilities
 
@@ -162,6 +177,7 @@ if (result.IsSuccess)
 | `ReadResource(this Assembly, string)` | Read an embedded resource as a string |
 | `GetBaubitFormattedAssemblyQualifiedName(this Type)` | Get simplified assembly-qualified name without version metadata |
 | `ReadStringAsync(this Stream)` | Read a stream's content as a string |
+| `CreateInstance<IMyService>(this Type, Type[], object[])` | Create instances using specific constructors |
 
 ### `TypeResolver`
 
