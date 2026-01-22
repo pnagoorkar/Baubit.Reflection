@@ -3,6 +3,7 @@
     <File Path=".circleci/config.yml" />
     <File Path=".github/copilot-instructions.md" />
     <File Path="codecov.yml" />
+    <File Path="Directory.Build.props" />
     <File Path="Directory.Packages.props" />
   </Folder>
   <Project Path="Baubit.Reflection.Test/Baubit.Reflection.Test.csproj" Id="77c2d28d-9178-4271-a82b-1aad5f482af5" />
